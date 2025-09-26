@@ -3,8 +3,8 @@
     <dbname value="kuku" />
     <version value="1" />
     <list>
-        <mapping class="com.kuku.android.db.Province" />
-        <mapping class="com.kuku.android.db.City" />
-        <mapping class="com.kuku.android.db.County" />
+        <mapping class="com.example.kuku.db.Province" />
+        <mapping class="com.example.kuku.db.City" />
+        <mapping class="com.example.kuku.db.County" />
     </list>
 </litepal>

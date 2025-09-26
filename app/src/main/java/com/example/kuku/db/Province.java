@@ -1,19 +1,20 @@
 package com.example.kuku.db;
 
+import org.litepal.annotation.Column;
 import org.litepal.crud.LitePalSupport;
 
+
 public class Province extends LitePalSupport{
+    @Column(unique = true, defaultValue = "unknown")
     private int id;
     private String provinceName;
     private int provinceCode;
-    public int getId(){
+    public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public String getProvinceName() {
         return provinceName;
     }
